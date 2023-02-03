@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+body{
+    margin: 0;
+}
+.bg-container {
+    background-image: url("gradient1.png");
+    padding-bottom: 35px;
+    padding-top: 20px;
+    background-size: cover;
+}
+.heading{
+    color: white;
+    font-size: 35px;
+    font-family: andika;
+    text-transform: raleway,sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.input-container{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 10px;
+}
+.input-container p {
+    font-family: poppins;
+    font-size: 15px;
+    color: #00306E;
+    font-weight:600;
+    padding-top: 10px;
+}
+.input-boxes{
+    width: 70%;
+    height: 40px;
+    text-align: center;
+}
+.button-container{
+    text-align: center;
+}
+.button{
+    background-color:#00306E;
+    color: white;
+    font-size: 14px;
+    width: 90px;
+    font-family:poppins;
+    border:0px;
+    border-radius: 10px;
+    display: block;
+    margin:0px auto;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.custom-button{
+    margin: 40px;
+    border:0px;
+}
